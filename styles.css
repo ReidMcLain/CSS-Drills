@@ -1,0 +1,117 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(Wide\ Latin\ Regular.ttf);
+}
+
+div {
+  font-family: myFirstFont;
+}
+
+body {
+  background-color: rgb(194, 194, 194);
+}
+
+h2,
+p,
+.README-wrapper {
+  text-align: center;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: navajowhite;
+  color: olive;
+}
+
+a:hover {
+  cursor: pointer;
+  font-size: 30px;
+  color: lime;
+}
+
+span {
+  color: mediumslateblue;
+  font-size: 20px;
+}
+
+.boxes {
+  margin: 1em;
+  padding: 2em;
+  border: solid royalblue;
+  border-radius: 4em;
+  height: 20em;
+  width: 30em;
+  display: block;
+  /* position: relative; */
+}
+
+#box1 {
+  background-color: slategray;
+}
+
+#box2 {
+  background-color: sandybrown;
+}
+
+#box3 {
+  background-color: firebrick;
+}
+
+#box4 {
+  background-color: darkolivegreen;
+}
+
+.image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: turquoise;
+}
+
+h1 {
+  color: hotpink;
+}
+
+.original {
+  color: gold;
+}
+
+.additional {
+  color: darkslategrey;
+}
+
+#show1 {
+  color: red;
+}
+
+#show2 {
+  color: orange;
+}
+
+#show3 {
+  color: yellow;
+}
+
+#show4 {
+  color: green;
+}
+
+#show5 {
+  color: blue;
+}
+
+ul {
+  color: navy;  
+}
+
+.star {
+    color: maroon;
+}
+
+#wars {
+    color:mediumspringgreen
+}
+
+.lists {
+  border: 2px solid black; 
+}
