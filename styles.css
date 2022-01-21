@@ -15,7 +15,9 @@ h2,
 p,
 .README-wrapper {
   text-align: center;
-  text-decoration: none;
+  text-decoration: none; 
+  position: relative;
+  bottom: 70px;
 }
 
 a {
@@ -39,11 +41,9 @@ span {
   padding: 2em;
   border: solid royalblue;
   border-radius: 10px;
-  height: 20em;
+  height: 15em;
   width: 30em;
   display: block;
-  /* display: inline-block; */
-  /* position: relative; */
 }
 
 #box1 {
@@ -63,11 +63,13 @@ span {
 }
 
 .image {
-  left: 400px;
   height: 50px;
   width: 50px;
   border-radius: 50px;
   background-color: turquoise;
+  position: relative;
+  right: 10px;
+  bottom: 20px;
 }
 
 h1 {
@@ -103,17 +105,17 @@ h1 {
 }
 
 ul {
-  color: navy;  
+  color: navy;
 }
 
 .star {
-    color: maroon;
+  color: maroon;
 }
 
 #wars {
-    color:mediumspringgreen
+  color: mediumspringgreen;
 }
 
 .lists {
-  border: 2px solid black; 
+  border: 2px solid black;
 }
